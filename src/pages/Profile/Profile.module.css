@@ -1,0 +1,64 @@
+/* Card styling for the Profile component */
+.profileCard {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Profile image styling */
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Information group styling for email, phone, etc. */
+  .infoGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(245, 245, 245, 1);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Icon styling for each info item */
+  .icon {
+    color: #4caf50;
+    font-size: 1.2rem;
+  }
+  
+  /* Styling for each info text (email, phone) */
+  
+  
+  /* Edit button styling */
+  .editButton {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+  }
+  .updateButton {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+    
+  }
+  
+  .editButton:hover {
+    background-color: #43a047;
+  }
+  

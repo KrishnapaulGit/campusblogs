@@ -1,0 +1,148 @@
+
+.gradient {
+    background: linear-gradient(120deg, #f6f9fc 0%, #e9ecef 100%);
+  min-height: 100vh;
+  padding: 20px;
+  margin-top: 3rem;
+}
+.titleWrapper {
+  text-align: center;
+  position: relative;
+  margin-bottom: 3rem;
+  padding: 20px 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d3436;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  height: 2px;
+  background: linear-gradient(90deg, #64b5f6, transparent);
+}
+
+.title::before {
+  left: -80px;
+}
+
+.title::after {
+  right: -80px;
+  background: linear-gradient(90deg, transparent, #64b5f6);
+}
+
+.title span {
+  color: #64b5f6;
+}
+
+.decorativeLine {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #64b5f6, transparent);
+  bottom: 0;
+}
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none; 
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  /* transform: scale(1.05); */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.banner {
+  width: 100%; 
+  height: 350px; 
+  object-fit: cover;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.pageButton {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  background: white;
+  color: #4a90e2;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pageButton:hover {
+  background: #4a90e2;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(74, 144, 226, 0.2);
+}
+
+.pageButton:active {
+  transform: translateY(0);
+}
+
+.activeButton {
+  background: #4a90e2;
+  color: white;
+  border-color: #4a90e2;
+}
+
+.pageButton:disabled {
+  background: #e9ecef;
+  color: #adb5bd;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.pageButton svg {
+  width: 18px;
+  height: 18px;
+}
+
+.paginationDots {
+  color: #4a90e2;
+  font-weight: bold;
+  margin: 0 4px;
+}
+
+@media (max-width: 576px) {
+  .pageButton {
+    padding: 0.4rem 0.8rem;
+    min-width: 35px;
+    font-size: 0.9rem;
+  }
+  
+  .pagination {
+    gap: 0.3rem;
+  }
+}

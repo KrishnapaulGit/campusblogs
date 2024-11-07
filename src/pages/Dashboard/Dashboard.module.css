@@ -1,0 +1,57 @@
+
+.dashboard {
+    padding-bottom: 50px;
+}
+.dashboardTitle {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .addButton {
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+  .addButton:hover {
+    background-color: #43a047;
+  }
+  
+  .blogCard {
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardTitle {
+    color: #333;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .cardContent {
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  .actionButton {
+    background-color: transparent;
+    color: #007bff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .actionButton:hover {
+    color: #0056b3;
+  }
+  

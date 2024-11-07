@@ -1,0 +1,85 @@
+
+.footer {
+    background: linear-gradient(to right, #1a1c20, #2d3436);
+    color: #ffffff;
+    padding: 3rem 0;
+    margin-top: auto;
+  }
+  
+  .brandName {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .socialIcon {
+    transition: transform 0.3s ease;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .socialIcon:hover {
+    transform: translateY(-5px);
+    color: #64b5f6;
+  }
+  
+  .sectionTitle {
+    color: #64b5f6;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  
+  .footerLink {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.8rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footerLink:hover {
+    color: #64b5f6;
+  }
+  
+  .subscribeInput {
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .subscribeButton {
+    background: #64b5f6;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  
+  .subscribeButton:hover {
+    background: #1e88e5;
+  }
+  
+  .copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .subscribeInput {
+      width: auto;
+      margin-bottom: 0;
+    }
+    
+    .subscribeButton {
+      width: auto;
+    }
+  }

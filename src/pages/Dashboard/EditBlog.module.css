@@ -1,0 +1,81 @@
+
+.mainContainer {
+    background: linear-gradient(120deg, #f6f9fc 0%, #e9ecef 100%);
+     min-height: 100vh;
+     padding: 20px;
+     margin: 3rem 2rem;
+     
+   }
+   .titleWrapper {
+     text-align: center;
+     position: relative;
+     margin-bottom: 3rem;
+     padding: 20px 0;
+   }
+   
+   .title {
+     font-size: 2.5rem;
+     font-weight: 700;
+     color: #2d3436;
+     display: inline-block;
+     position: relative;
+     margin: 0;
+     padding: 0 20px;
+   }
+   
+   .title::before,
+   .title::after {
+     content: "";
+     position: absolute;
+     top: 50%;
+     width: 70px;
+     height: 2px;
+     background: linear-gradient(90deg, #64b5f6, transparent);
+   }
+   
+   .title::before {
+     left: -80px;
+   }
+   
+   .title::after {
+     right: -80px;
+     background: linear-gradient(90deg, transparent, #64b5f6);
+   }
+   
+   .title span {
+     color: #64b5f6;
+   }
+   
+   .decorativeLine {
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 150px;
+     height: 3px;
+     background: linear-gradient(90deg, transparent, #64b5f6, transparent);
+     bottom: 0;
+   }
+   
+   .formInput{
+           width: 100%;          
+           padding: 0.5rem;      
+           border: 1px solid #ccc; 
+           border-radius: 0.25rem; 
+           margin-bottom: 0.5rem;  
+           margin-left: 0.75rem;  
+       }
+       
+   
+   .buttonContainer{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .button{
+       background-color:#439ee8;
+       border-radius: 8px;
+       margin-top: 60px;
+       justify-content: center;
+       align-items: center;
+       color: #f6f9fc;
+   }
