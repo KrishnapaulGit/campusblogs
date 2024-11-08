@@ -124,9 +124,9 @@ const Footer = () => {
           <div className="col-lg-2 col-md-6 mb-4 mb-lg-0">
             <h5 className={styles.sectionTitle}>Categories</h5>
             <a href="#" className={styles.footerLink}>Technology</a>
-            <a href="#" className={styles.footerLink}>Lifestyle</a>
-            <a href="#" className={styles.footerLink}>Travel</a>
-            <a href="#" className={styles.footerLink}>Food</a>
+            <a href="#" className={styles.footerLink}>College Life</a>
+            <a href="#" className={styles.footerLink}>Placement Experience</a>
+            <a href="#" className={styles.footerLink}>Other</a>
           </div>
 
           {/* Newsletter */}
